@@ -1,8 +1,13 @@
 .gallery-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
-  margin: 40px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  margin: 5px;
+  border: 2px solid #ccc;
+}
+
+.gallery-image {
+  height: 180px;
 }
 
 .gallery-item {
@@ -18,6 +23,7 @@
   transform: scale(1.1);
   transition: all 0.3s ease;
   cursor: pointer;
+  border: 1px solid #777;
 }
 
 .gallery-container img.zoom {
