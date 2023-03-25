@@ -1,5 +1,7 @@
-const express = require('express');
+const express = require("express");
 const app = express();
+
+app.use(express.static(__dirname + "/public"));
 
 app.get("/", (req, res) => {
   res.sendFile(__dirname + "/views/index.html");
@@ -17,6 +19,11 @@ app.get("/work", (req, res) => {
   res.sendFile(__dirname + "/views/work.html");
 });
 
-app.use(express.static(__dirname + "/public"));
+// click on gallery
+const galleryItems = document.querySelectorAll(".gallery-item");
 
-
+galleryItems.forEach((item) => {
+  item.addEventListener("click", (event) => {
+    event.target.classList.toggle("zoom");
+  });
+});

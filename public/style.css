@@ -95,6 +95,19 @@ main p {
   transform: scale(1.1);
 }
 
+.work-container {
+  margin: 30px;
+}
+.movie-title {
+  color: blueviolet;
+  font-size: 20pt;
+}
+
+.image-movie {
+  background-size: cover;
+  height: 100%;
+}
+
 /* Style the footer */
 footer {
   background-color: #1f1f1f;
