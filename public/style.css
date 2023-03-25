@@ -12,9 +12,9 @@ body {
 
 /* Style the header */
 header {
-  background-image: url('../public/headerimage.jpg');
-background-size: cover;
-background-position: center;
+  background-image: url("../public/headerimage.jpg");
+  background-size: cover;
+  background-position: center;
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -28,8 +28,12 @@ header h1 {
 /* Style the navigation */
 nav {
   background-color: #dcdcdc;
-  padding: 10px;
+  padding: 20px;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
 }
 
 nav a {
