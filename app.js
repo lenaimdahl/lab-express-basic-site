@@ -3,6 +3,7 @@
 const express = require("express");
 const app = express();
 
+//all files are served under /
 app.use(express.static(__dirname + "/public"));
 
 app.get("/", (req, res) => {
