@@ -21,6 +21,8 @@ app.get("/work", (req, res) => {
   res.sendFile(__dirname + "/views/work.html");
 });
 
+app.listen(3000, () => console.log("🏃‍ on port 3000"));
+
 // click on gallery
 const galleryItems = document.querySelectorAll(".gallery-item");
 

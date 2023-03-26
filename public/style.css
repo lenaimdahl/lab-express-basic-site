@@ -115,6 +115,9 @@ footer {
   padding: 10px;
   text-align: center;
   font-size: 0.9rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
 
 footer p {
