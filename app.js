@@ -22,12 +22,3 @@ app.get("/work", (req, res) => {
 });
 
 app.listen(3000, () => console.log("🏃‍ on port 3000"));
-
-// click on gallery
-const galleryItems = document.querySelectorAll(".gallery-item");
-
-galleryItems.forEach((item) => {
-  item.addEventListener("click", (event) => {
-    event.target.classList.toggle("zoom");
-  });
-});
