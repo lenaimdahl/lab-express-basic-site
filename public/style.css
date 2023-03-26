@@ -24,8 +24,8 @@ header {
 
 .heading {
   margin: 0;
-  font-size: 25pt;
-  color: red;
+  font-size: 30pt;
+  color: rgb(50, 120, 55);
   font-weight: bold;
   text-align: center;
 }
